@@ -31,6 +31,7 @@ class CLI:
         self._tor_address = tor_address
         self._tor_proxy_port = tor_proxy_port
         self._tor_ctrl_port = tor_ctrl_port
+        self._tor = tor
 
         self._platoon = None  # app.command.Platoon
         self._num_soldiers = num_soldiers
@@ -110,6 +111,9 @@ class CLI:
             app.console.system("running slowloris")
 
             weapon_factory = SlowLorisFactory(
+                data = reach define the = self studio 
+                but in case some times we have to change the better thought 
+                each other propose changes num sockets the number target the url of the attack the given url / doamin under attack
                 http_method=self._http_method,
                 cache_buster=self._cache_buster,
                 num_sockets=num_sockets
